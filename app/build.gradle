@@ -3,6 +3,9 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     // navigation için :
     id("androidx.navigation.safeargs.kotlin")
+    // MainActivity ve XML arasındaki senkronizasyonu sağlamak için:
+    id 'kotlin-android-extensions'
+
 }
 
 android {
