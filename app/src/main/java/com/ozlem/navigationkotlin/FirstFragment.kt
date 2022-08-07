@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 // Fragment ve XML arasındaki senkronizasyonu sağlamak için:
-import kotlinx.android.synthetic.main.fragment_first.button1ID
+import kotlinx.android.synthetic.main.fragment_first.*
 
 
 class FirstFragment : Fragment() {
